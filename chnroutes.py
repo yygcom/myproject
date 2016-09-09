@@ -211,6 +211,7 @@ iptables -t nat -A SHADOWSOCKS -d 240.0.0.0/4 -j RETURN
     iptables -t nat -A SHADOWSOCKS -d 210.129.16.166/32 -p tcp -j RETURN
     iptables -t nat -A SHADOWSOCKS -d 124.247.248.0/24 -p tcp -j RETURN
     iptables -t nat -A SHADOWSOCKS -d 117.18.65.0/24 -p tcp -j RETURN
+    iptables -t nat -A SHADOWSOCKS -d 203.178.92.0/24 -p tcp -j RETURN
     """)
     upscript_footer=textwrap.dedent("""\
 
